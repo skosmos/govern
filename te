@@ -1,0 +1,22 @@
+Here's a consolidated version — grouping the 19 granular DRL asks into fewer, broader requests by phase. This is based on the structure of your actual TMCC DRL (which mirrors this template almost exactly, item-for-item).
+
+Phase 1 — Kickoff & Planning (3 → 2)
+
+AI governance & organizational documentation — current AI governance policies/standards/procedures + charter docs, RACI/org structure for AI governance & security stakeholders, AI risk register or use-case inventory, and (where applicable) parent-organization (TMNA) governance policy plus any existing mapping to TMCC's own standards.
+AI security tooling & guardrails inventory — current AI security tooling (gateways, DLP/redaction, monitoring, guardrails) plus any access needed to review these directly.
+
+Phase 2 — Architecture Patterns (11 → 5)
+3. Existing drafted AI security architecture patterns — patterns already drafted internally, with supporting reference diagrams, control lists, scope notes.
+4. AI/agentic infrastructure & access documentation — combines: agentic AI & MCP usage (incl. MCP server inventory), third-party LLM access (e.g. Bedrock, incl. credential/key management), AI gateway architecture, and MCP proxy architecture — all treated as one "how AI traffic moves through TMCC" ask.
+5. AI-powered IDE / developer tooling usage — approved AI IDEs/agentic dev environments, governance policy, autonomy-mode/approval-workflow config.
+6. AI use-case deployments — combines: agentic AI embedded in third-party SaaS (Tableau, Salesforce, etc.), customer-facing chatbot(s), and internal AI assistants (Amazon Q, Claude) — one ask covering "where is AI actually deployed and doing things."
+7. Coordination/adjacent-program documentation — combines: Agentic IAM program docs + any parallel security architecture work (Mandiant) — framed as "what else is in flight that we need to align with."
+
+Phase 3 — Security Standard (2 → 1)
+8. AI security standard & exception process — existing draft standard (+ any prior socialization/feedback notes) and the current exception process (+ historical exceptions if tracked).
+
+Phase 4 — Gateway Technology (3 → 2)
+9. AI/MCP gateway landscape & selection criteria — combines: current vendor landscape/tooling in use + any prior selection criteria or scoring framework.
+10. SALT platform configuration — kept separate since it's TMCC-specific: licensed feature tier, network placement (perimeter vs. east-west visibility), current MCP-server discovery coverage.
+
+Result: 19 rows → 10 groups, without dropping any actual ask — just bundling by "who'd likely answer this" and "what's the same underlying document."
