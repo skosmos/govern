@@ -1,0 +1,44 @@
+Goal
+Prepare the team for the TMCC AI security engagement by completing key outreach, research, and planning before delivery begins.
+Pre-Engagement Actions
+Client communication
+• Send Parisha the document request list next week, after it is reviewed and tightened.
+• At kickoff, confirm the preferred day and time for regular weekly status calls.
+• Ask Parisha to add a TMNA representative to the kickoff.
+• Add a TMNA GRC/governance discussion to the meeting request list.
+Stakeholder outreach
+• Contact David Yu to request the Mandiant team point of contact.
+• Context: Mandiant is supporting AI architecture-pattern work for TMCC.
+• Request a meeting for next week.
+• CC Stas, Adam, and Rashi; keep Rashi optional for attendance.
+Research Work
+AI security architecture patterns
+• Start with the AI architecture-pattern topics listed in the SOW.
+• Research MCP, AI agents, agentic identity and access management, and relevant security practices.
+• Work with Smash on the research.
+• Use findings to prepare for reviewing TMCC documentation and discussions with Mandiant.
+AI discovery and protection
+• Research how AI discovery/protection tools operate in practice, beyond vendor marketing.
+• Use Salt as an initial example.
+• Do initial research before involving Neil, the Salt/API security SME.
+Governance and policy alignment
+• Plan calls with both TMNA governance and TMCC governance teams.
+• Understand TMNA’s parent-level AI security policies.
+• Compare them with TMCC’s needs and identify policy gaps.
+AI/MCP Gateway Vendor Evaluation
+Criteria
+• Moksh and Gauri should develop selection criteria and a scoring framework.
+• Separate must-have from good-to-have capabilities.
+• Ask them to share templates from prior engagements.
+• Validate the criteria with the client before finalizing.
+Vendor research
+• Identify up to 10 AI/MCP gateway vendors.
+• Begin outreach for demos and solution walkthroughs.
+• Use the agreed criteria to assess vendors.
+• Produce a scored summary after research and vendor discussions.
+Immediate Deliverable
+• Create a spreadsheet separating:
+• pre-engagement research and planning tasks;
+• tasks that begin once the engagement starts;
+• owners and dependencies.
+• Review the list with the team tomorrow and
