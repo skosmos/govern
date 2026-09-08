@@ -1,9 +1,0 @@
-MRL-01	Executive Sponsor 	For this session we need whoever can decide which architecture patterns get prioritized and approve deliverable scope — sponsor plus any delegate who signs off on D2 pattern selection.
-MRL-02	TMCC Project Manager 	We need whoever controls stakeholder scheduling, the shared workspace, and the TMCC-side status/reporting cadence.
-MRL-03	Security Architecture 	We need the authors of TMCC's existing drafted AI security patterns, plus whoever owns the AI gateway and MCP proxy architecture today — anyone who can speak to how agents and third-party LLM access are wired in practice, not just on paper.
-MRL-04	API Security SME 	We need whoever owns API gateway configuration, the API inventory/discovery process, and API authN/authZ standards — the person who can tell us how agent-to-API traffic is currently governed.
-MRL-05	AI/ML Domain Architect (optional)	We need whoever owns the AI/ML platform and the third-party LLM access path (e.g. Bedrock), including model hosting and credential management for those services.
-MRL-06	Agentic IAM Program Lead (TBD)	We need the Agentic IAM program lead plus whoever owns non-human/service-account identity lifecycle — issuance, scoping, rotation, and de-provisioning for agent identities.
-MRL-07	Mandiant POC	We need whoever authored the Google Cloud AI architecture patterns for TMCC and can speak to their framework basis, so we can reconcile scope and vocabulary rather than duplicate work.
-MRL-08	Cyber GRC 	We need whoever owns the TMNA parent-policy mapping, the AI risk register, and the current exception process — the person who will have to operate the standard once it's adopted.
-MRL-09	SALT / Platform 	We need whoever owns the SALT license and contract, the engineer who configures sensor placement and deployment, and the incoming AI Security Manager — enough coverage to answer licensed tier, east-west visibility, and current MCP-server discovery. Not before 09/08.
