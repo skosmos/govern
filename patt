@@ -1,5 +1,0 @@
-Productivity AI	M365 Copilot, Amazon Quick	NIST AI 600-1 (GenAI Profile), роль deployer по EU AI Act
-Developer AI	Kiro, GitHub Copilot, Claude Code; IDE-тулинг пока без документации	NIST SSDF (SP 800-218A для AI), OWASP LLM Top 10 (insecure output handling, supply chain)
-Vendor Integrated AI	Сторонние SaaS; у клиента пробел в документации по third-party	NIST AI RMF (Govern: third-party risk), ISO 42001 (supplier controls)
-Agentic AI	Copilot Studio agents, MCP proxy к AWS, агенты для onboarding/offboarding	OWASP Agentic AI Threats & Mitigations, OWASP LLM06 (Excessive Agency)
-Generative AI	Приложения на Bedrock через MuleSoft AI gateway	NIST AI 600-1, OWASP LLM Top 10, AWS Bedrock shared responsibility model
