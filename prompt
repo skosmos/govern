@@ -1,0 +1,35 @@
+## Task
+Map each AI security requirement in the attached workbook to the AI use case categories it applies to. Fill in the "AI Use Cases" column for every row.
+
+## Context
+This is for TMCC (Toyota Motor Credit Corp), a regulated financial services company. We are building AI security standards. The client defined 5 AI use case categories. Each requirement must be tagged with the categories it realistically applies to. The mapping will later drive category-specific secondary questionnaires, so over-tagging is as harmful as under-tagging.
+
+## The 5 categories
+1. Productivity AI: vendor-hosted AI assistants for everyday employee work (M365 Copilot, Amazon Quick). TMCC configures access and data connections but does not build the AI logic.
+2. Developer AI: AI tools used in software development (GitHub Copilot, Amazon Kiro, Claude Code). Key risks: AI-generated code, repo/secret access, SDLC and supply chain.
+3. Vendor Integrated AI: AI features embedded in third-party SaaS/vendor products. TMCC does not control the model. Catch-all for vendor AI not covered elsewhere. Key risks: third-party data processing, contracts, sub-processors.
+4. Agentic AI: AI that autonomously plans and takes actions via tools/APIs (Copilot Studio agents, MCP integrations). Key risks: excessive agency, tool permissions, agent identity, human-in-the-loop, prompt injection leading to actions.
+5. Generative AI: custom AI apps TMCC builds on its own platform (AWS Bedrock, via the AI gateway). TMCC owns prompts, RAG pipelines, guardrails, and model selection.
+
+## Boundary rules
+- Copilot (out of the box) = Productivity AI. An agent built in Copilot Studio = Agentic AI.
+- A Bedrock app that only generates content = Generative AI. If it takes actions via tools = Agentic AI.
+- Coding assistants in agent mode stay Developer AI (the SDLC context defines them).
+
+## Mapping rules
+- Apply a requirement to a category only if TMCC can actually implement or verify it for that category. Example: model hosting or guardrail configuration requirements do not apply to Vendor Integrated AI, because TMCC has no control over the model. The equivalent there is a vendor assessment or contractual control.
+- Governance & Strategy requirements (policy, inventory, roles, risk classification, acceptable use, training) usually apply to "All". Still check each row.
+- Use "All" only when the requirement genuinely applies to all 5 categories.
+- If a requirement applies in a modified form (e.g., enforced through a vendor contract instead of a technical control), tag the category and note it.
+- If a row is ambiguous, tag it and flag it for review. Do not guess silently.
+
+## Output
+Return a table with these columns:
+Requirement ID | Requirement (short) | AI Use Cases | Rationale (1 line) | Flag (Y/N + reason)
+
+Keep each rationale to one line. After the table, add:
+1. Rows you flagged as ambiguous
+2. Any category with suspiciously few requirements (possible coverage gap)
+
+## Requirements
+[paste workbook rows here]
