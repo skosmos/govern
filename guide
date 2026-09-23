@@ -1,0 +1,24 @@
+AI Secure Controls Framework: how to continue the mapping
+
+What changed
+The framework is updated as a draft and extra details are removed for now. Two columns are added: Subdomain (from Rashi's domain/subdomain structure) and AI use case.
+
+Steps (repeat for each domain)
+
+Filter the Domain column to one domain.
+Map subdomains. Give the AI tool the filtered requirements (ID, name, description) and Rashi's subdomains for that domain, and ask it to propose a subdomain for each requirement.
+Verify. This is mandatory. Check every row against the description and correct it, then fill in the Subdomain column. Leave a comment on anything unclear.
+Map AI use cases. Use the AI tool the same way, based on the requirement descriptions and the 5 categories below.
+Verify and fill in the AI use case column.
+
+AI use case categories (working definitions)
+
+Productivity AI: vendor AI assistants for employees (M365 Copilot, Amazon Quick)
+Developer AI: AI coding tools (GitHub Copilot, Kiro, Claude Code)
+Vendor Integrated AI: AI inside third-party SaaS; TMCC doesn't control the model
+Agentic AI: AI taking actions via tools/APIs (Copilot Studio agents, MCP)
+Generative AI: custom apps on AWS Bedrock via the AI gateway
+
+Conventions
+
+Don't change requirement text or IDs.
