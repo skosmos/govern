@@ -1,0 +1,6 @@
+D2/D3 – Architecture patterns (scope cut to 4)	D2 past, D3 10/16	Agentic ADRs, Bedrock, AI gateway, MCP proxy, RAG designs	Existing draft patterns (#4), MCP server inventory, chatbot docs, IDE governance	🟡 Medium. The Mandiant patterns (due late Sept) may cover #4.
+D4 – Standard early draft	Today (9/25)	Existing AI Security Standard, TMNA policy, governance policy, charter	Exception process (#17), TMNA-to-TMCC mapping, risk register	🟡 Medium. We can draft now, but the exception section will be built from scratch.
+D5 – Standard draft	10/23	Same as D4	RACI for approvals, use-case inventory	🟢 Low if the GRC call fills the gaps
+D6 – Gateway scoring framework	10/16	Gateway architecture	Prior criteria and evaluations (#18, #20)	🟢 Low. We already planned to build this from scratch.
+D7 – SALT evaluation	10/23	Nothing	SALT config, license tier, MCP discovery coverage (#19)	🔴 High. We can't start without system access or a config export.
+D8/D9 – Vendor scoring and PoC plan	11/06, 11/20	Gateway architecture	Deployed or piloted tools, prior RFPs	🟡 Medium. This depends on D6 and D7.
