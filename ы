@@ -1,0 +1,12 @@
+Part 2: Documents Still Needed
+
+#	Document	Notes
+#4	Remaining ~5 draft architecture patterns referenced by Ben Taylor (Aug 19), with diagrams and control lists	Include drafts not planned for prioritization. This blocks items #10–14.
+#16	GRC comments or redlines on the current AI Security Standard draft	Direct input to D4
+#1	AI risk register and governance RACI	Only if they exist
+#3	System access or documentation for direct review of AI security tools	For the tooling inventory
+#6	MCP server inventory	Only if it exists
+#7	Bedrock key management approach and list of consuming BUs/apps	Any format is fine
+#9	Production or target MCP proxy architecture	Only if it exists
+#13	RAG security control list	Not an audit report
+#19	SALT configuration details, or schedule a walkthrough
