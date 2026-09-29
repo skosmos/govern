@@ -1,7 +1,0 @@
-Task: Build a gap analysis for each line item in the tracker. Columns:
-- Requested document
-- Status: Received / Partial / Not received
-- Information we expected from it (and which deliverable it supports: technical standards, exception management process, AI security architecture patterns, MCP gateway evaluation)
-- Information actually obtained (with reference to section or page)
-- What's missing
-- Specific question for the client to close the gap
