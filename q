@@ -1,10 +1,8 @@
-#	Question	Low	Medium	High
-1	Who will use or interact with the AI tool?	Internal team only	All employees / contractors	Customers, dealers or public
-2	Will the AI output affect decisions about customers (e.g. credit, pricing, collections)?	No	Informs a human decision	Makes or automates the decision
-3	Can the AI take actions on its own (send emails, update records, run workflows)?	No, only answers or suggests	Actions need human approval	Acts without human approval
-4	What systems will the AI connect to?	None / standalone	Internal read-only systems	Core business systems or write access
-5	Who provides the AI tool?	Approved TMCC platform (e.g. Bedrock)	Established vendor, enterprise contract	New vendor, open-source or custom-built
-6	Will the AI connect to external tools or services (plugins, MCP servers, APIs)?	No	Approved internal only	Third-party / internet
-7	How many users or transactions?	Pilot (<50 users)	Department	Enterprise-wide / customer-scale
-8	If the AI is wrong or unavailable, what is the impact?	Minor inconvenience	Business delay, rework	Customer harm, financial or regulatory impact
-9	Will the AI generate or change code, configurations or infrastructure?	No	Suggests code for developer review	Commits or deploys changes
+Question	Low	Medium	High
+1	Can the AI take actions without a person approving each one?	Only answers/suggests	Acts after human approval	Acts on its own
+2	Will the AI connect to external tools, plugins or services (e.g. MCP servers, third-party APIs)?	No	TMCC-approved only	Third-party / internet
+3	Will the AI read content from outside TMCC (websites, emails, customer uploads)?	No	Trusted partners only	Yes, any external source
+4	Will AI output go to customers or outside parties without a person reviewing it first?	Never	Sometimes / reviewed sample	Yes, directly
+5	Is the AI part of a regulated process (lending, collections, disclosures, fraud)?	No	Supports it indirectly	Yes, directly
+6	If the AI is wrong or unavailable, what is the worst impact?	Minor inconvenience	Delay / rework	Customer, financial or regulatory harm
+7	Whose access or account will the AI use to act in other systems?	None	Its own limited service account	The user's access / broad shared account
