@@ -1,0 +1,39 @@
+I'm reviewing AI security architecture patterns written by Mandiant (e.g., On-Behalf-Of (OBO) token delegation pattern; Securing the Agent Development Lifecycle on Amazon Bedrock AgentCore with Okta). Goal: NOT to create new patterns, but to identify missing security controls and assess risk coverage, then give recommendations. Use plain, simple language. For every finding: (1) what the risk is, (2) why it is a risk, (3) which control is missing.
+
+METHOD
+1. Risk coverage: use OWASP risks as rows; cite MITRE ATLAS techniques as evidence.
+2. Control gaps: map each risk to controls via the OWASP Crosswalk, primarily CSA AICM (and NIST 800-53 if relevant); check whether the pattern implements each control.
+3. Pattern-specific deep check: OAuth/IETF specs for OBO; AWS SRA/AgentCore guidance for AWS patterns.
+
+OUTPUT TABLE
+| Risk (OWASP ID) | ATLAS technique | What the pattern says | Status (Covered / Partial / Gap / Not addressed) | Missing control (AICM / RFC / AWS ref) | Recommendation |
+
+REFERENCE SOURCES
+
+Risk -> control mapping (start here)
+- OWASP GenAI Security Industry Framework Crosswalk (maps 51 GenAI risks to controls in 25 frameworks incl. NIST, ISO, MITRE ATLAS, EU AI Act): https://genai.owasp.org/resource/genai-security-industry-framework-crosswalk/
+
+Risk coverage
+- OWASP Top 10 for LLM Applications 2026: https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/
+- OWASP Top 10 for Agentic Applications 2026: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+- MITRE ATLAS: https://atlas.mitre.org/
+- New ATLAS AI-agent techniques (Zenity): https://labs.zenity.io/post/mitre-atlas-ai-agent-attack-techniques
+
+Control gaps
+- CSA AI Controls Matrix v1.1 (247 control objectives; includes AI-CAIQ questionnaire): https://cloudsecurityalliance.org/artifacts/ai-controls-matrix-v1-1
+- AICM Implementation & Auditing Guidelines (role-based: Model Provider, App Provider, Orchestrated Services Provider, AI Customer, CSP; use this to say whose side the gap is on): https://cloudsecurityalliance.org/artifacts/aicm-implementation-auditing-guidelines-frameworks
+- NIST SP 800-53 Rev. 5 (if the client's baseline): https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+
+OBO / token delegation deep check
+- RFC 8693 OAuth 2.0 Token Exchange: https://datatracker.ietf.org/doc/html/rfc8693
+- RFC 9700 OAuth 2.0 Security Best Current Practice: https://datatracker.ietf.org/doc/html/rfc9700
+- IETF draft – AI Agent Authentication and Authorization: https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/
+- Avoiding MCP Confused Deputy with AAuth: https://blog.christianposta.com/avoiding-mcp-confused-deputy-with-aauth/
+Check specifically: audience/scope narrowing, token TTL, replay protection, confused deputy, delegation-chain audit, revocation, human-in-the-loop for destructive actions.
+
+AWS / Bedrock AgentCore deep check
+- AWS Security Reference Architecture – AI security: https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture-generative-ai/introduction.html
+- AWS SRA – securing generative AI agents (session isolation, authentication points, restricting IAM principals for InvokeAgentRuntime): https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture-generative-ai/gen-auto-agents.html
+- Security for agentic AI on AWS (PDF): https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/agentic-ai-security/agentic-ai-security.pdf
+- Agentic AI Security Scoping Matrix: https://aws.amazon.com/blogs/security/the-agentic-ai-security-scoping-matrix-a-framework-for-securing-autonomous-ai-systems
+- AWS Well-Architected Generative AI Lens: https://docs.aws.amazon.com/wellarchitected/latest/generative-ai-lens/generative-ai-lens.html
