@@ -1,1 +1,0 @@
-We’re reviewing the architecture patterns and would like to check the standards they reference. Could you share the standard, the cloud security standard, and any other supporting documents referenced in the patterns?
