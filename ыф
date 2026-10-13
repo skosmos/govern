@@ -1,5 +1,0 @@
--   Use Ben’s five or six use-case definitions as the classification criteria. I’ll provide those definitions with the documents.
--   Read each document independently. Identify which use case or pattern it best fits, citing specific evidence from the document. If the fit is uncertain or spans multiple categories, say so.
--   For each document, explain its apparent purpose, scope, and architecture in plain language.
--   **Only after classification**, assess what the document covers well and what may be missing. Separate confirmed gaps from questions that depend on standards or other documents we have not received.
-> **Output:** a concise section for each document with *classification and evidence*, *strengths*, *potential gaps*, *missing dependencies*, and *questions for the client*. Do not treat an AI-generated classification as confirmed by the client.
