@@ -1,0 +1,15 @@
+Decisions
+
+Add commentary to each vendor on Deloitte’s 11-vendor shortlist explaining why it was shortlisted. This is so it can be compared against Brian’s scored list. For example, Willow is ranked low by Brian but is on Deloitte’s shortlist.
+Shortlist criterion stays “real, scalable commercial product.” That’s why IBM Context Forge was excluded: it’s still an open-source proof of concept.
+SOW approach holds: assess ~10 vendors against the selection criteria, then narrow to a final four. Brian agreed the criteria fit TFS, with compliance coverage (SOC reports, ISO 27001) as the key differentiator.
+Before the Ben call, Deloitte will gather SALT information from alliance partners.
+
+Action items
+
+Parisha: Schedule an alignment call with Ben this week. Agenda: next steps on the vendor evaluation, and scope of the architecture pattern use cases.
+Brian: Confirm with Ben whether the architecture-pattern scope has changed. The two docs received so far (Secure Agent Lifecycle framework and OBO Token Delegation) look generic rather than covering the five original use cases.
+Owner not stated: Cross-check Ben’s regulatory guidance email against the technical standards and fold in any gaps.
+Owner not stated: Add the shortlisting rationale comments to the vendor list.
+Owner not stated: Schedule the SALT evaluation call with Ben and Neil for end of this week or early next week. Prep using the alliance partner info.
+Waiting on others: Ben Evans and team’s review of the technical standards doc and the exception management process. Feedback is expected.
