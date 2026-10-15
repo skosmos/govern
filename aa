@@ -1,0 +1,14 @@
+Clarifying questions for Ben
+
+Remaining patterns. When can we expect draft patterns for the other use case categories: Productivity/Workforce AI, Developer AI, Vendor-Integrated AI and Generative AI?
+Scope confirmation. Is the scope still 5–6 architecture patterns (the SOW allows up to 8), or has it changed?
+Document structure. Will each use case get one consolidated pattern document, or several documents by control area? For example, OBO covers identity and a separate document covers runtime security.
+Pattern applicability. Are the OBO pattern and the framework meant only for Agentic AI, or as cross-cutting patterns for all use case categories?
+Out-of-scope items. The framework lists model training/fine-tuning and data residency as out of scope. Should we treat them as out of scope for our review as well?
+Expected output. Please confirm our role: we review TMCC-drafted patterns, identify gaps and recommend refinements, rather than author new patterns from scratch.
+
+Working assumptions (если нужно над вопросами):
+
+Agentic AI access control flows are in scope.
+TMCC provides the initial draft patterns; Deloitte refines them and gives recommendations.
+Patterns will be validated with TMCC stakeholders before they are finalized.
