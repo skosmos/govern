@@ -1,0 +1,19 @@
+> I’m preparing materials to share with AI Gateway vendors. Review the attached **evaluation questionnaire** and **architecture pattern documents**. Create two separate, vendor-facing deliverables:
+> 
+> **1\. Simplified vendor questionnaire**
+> 
+> -   Keep only the essential questions needed to understand how the vendor’s product meets the requirements.
+> -   Combine duplicate or overlapping questions. Use clear, neutral language and group questions by topic.
+> -   Do not invent requirements. If removing a question could lose an important requirement, flag it for my review.
+> 
+> **2\. Architecture pattern descriptions**
+> 
+> -   Turn the relevant source material into short, clear descriptions that a vendor can use to understand the scenarios and respond.
+> -   Distinguish documented requirements from draft ideas or unverified content. Do not present draft patterns as approved architecture or established standards.
+> -   Include only the level of technical detail necessary for a vendor response.
+> 
+> **Clean both deliverables for external sharing.** Remove or generalize client names, contacts, identifying project details, environment-specific information, confidential data, internal comments, scoring, weights, rankings, and evaluation conclusions. Do not expose the internal evaluation method.
+> 
+> **Return three sections:** (A) cleaned questionnaire, (B) cleaned pattern descriptions, and (C) an **internal-only review log** listing what you removed, combined, or generalized and any passages that need a human decision. Do not put the review log in the vendor-facing materials. Do not guess when a passage is ambiguous; flag it.
+> 
+> Finally, check both vendor-facing sections again for client identifiers and internal scoring. Do not draft an email yet.
