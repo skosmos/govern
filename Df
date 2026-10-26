@@ -1,0 +1,7 @@
+SALT platform implementation — call summary
+The agreed output is an updated SALT implementation roadmap. Deloitte will review the existing project plan and kickoff materials, identify missing capabilities and propose a phased path to operationalize the platform.
+•	Current state: SALT is connected to AWS and MuleSoft, but traffic collectors are still being set up. Runtime detections have not started.
+•	Agentic graph: It shows six MCPs apparently associated with AWS Bedrock AgentCore, although no MCP servers have been approved. The team wants to understand what the graph is showing and how to use it. GitHub is not yet connected.
+•	Recommended sequence: Connect GitHub to improve visibility, get the traffic collectors running, then assess and tune API/runtime detections before considering AI detections. The team raised concern that enabling too many detections at once could overwhelm the SOC.
+•	Operationalization risk: SALT is still helping with deployment, but Ben was concerned about how much support will remain for operationalization afterward.
+Next steps: Ben shared the project plan and customer success kickoff materials in the TMCC–Deloitte chat. The team will contact Matthew Kowalski about GitHub Connect. Deloitte will draft the roadmap, then hold a roughly 30-minute follow-up next week; a separate platform walkthrough may also be needed. The follow-up was discussed, not 
