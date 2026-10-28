@@ -1,0 +1,23 @@
+**ing summary:** The team reviewed progress on AI risk questionnaires, security standards, architecture patterns, the SALT roadmap, and vendor evaluation.
+
+-   **Deliverables:** Tech Standards content was converted from Excel to the Word template, and the exception management process was finalized. Both were planned for delivery by end of day.
+-   **AI risk questionnaires:** The first set was accepted by Ben and forwarded to GRC. Three of five use-case-specific questionnaires were complete; the full draft was targeted for Monday, followed by feedback and a goal to close the work by the end of next week.
+-   **Security standards and patterns:** The standard was sent to Ben and Sal for feedback, while the team checked which Word template is current. Two architecture pattern documents were under SME review; additional documentation from Nick and George was still pending.
+-   **SALT roadmap:** Ben was asked to check on the requested data. Direct engagement with SALT was waiting on renewal of an expired NDA. The team discussed a six-month roadmap beginning with a pilot, testing, and feedback.
+-   **Vendor evaluation:** Criteria were finalized and outreach to 11 vendors had started. The team planned to review responses on the next call and discussed adding MuleSoft for comparison.
+
+
+
+Highlights
+The Tech Standards content was converted to Word, and the exception management process was finalized. Both were planned for delivery by end of day.
+The first AI risk questionnaire set was accepted and forwarded to GRC. Three of five use-case-specific questionnaires were complete.
+The AI security standard was sent to Ben and Sal for feedback. Two architecture pattern documents were under SME review.
+Vendor evaluation criteria were finalized, and outreach to 11 vendors had begun. SALT roadmap work was awaiting requested data and renewal of the expired NDA.
+Action items
+Send the Tech Standards Word documents and exception management process by end of day.
+Complete and send all five secondary AI risk questionnaires by Monday; collect feedback with the aim of closing the work by the end of next week.
+Share SME feedback on the on-behalf-of and secure AI development patterns early next week; await additional documents from Nick and George.
+Ben: Check with SALT on the requested roadmap data. Continue the NDA renewal so direct engagement can resume.
+Next call: Report which vendors responded, what information they provided, and any CrowdStrike Falcon inputs.
+
+
