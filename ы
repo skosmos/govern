@@ -1,0 +1,1 @@
+Revise the Salt roadmap to focus exclusively on AI security. Remove the API security section and any API security dependencies or parallel workstreams, since the client is handling that work separately. Preserve the document’s existing structure and tone where possible. Do not add new commitments or assumptions. Return the revised roadmap and briefly list the changes you made.
