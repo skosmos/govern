@@ -1,0 +1,5 @@
+Okta for AI Agents — short team summary
+The discussion focused on finding AI agents and MCP servers first, then deciding how to govern and secure them. Okta proposed a central identity layer for registering agents, assigning owners, and controlling access to resources. CrowdStrike, JAMF and SALT already provide different kinds of visibility, so the team needs to compare coverage rather than duplicate it.
+Okta’s proposed model checks both the agent’s and the user’s permissions. Its gateway could scope access to MCP tools and support token-based controls, but those runtime controls depend on traffic using the gateway. Today, manual deactivation stops new tokens; revoking active tokens is on the roadmap.
+Still open: how to govern homegrown agents, establish agent lifecycle standards, choose between overlapping gateways, and accommodate automated developer workflows. No gateway architecture was finalized.
+Next: share the Okta deck, hold a focused follow-up, review IAM/MCP standards, and test CrowdStrike–
