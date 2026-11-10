@@ -1,0 +1,10 @@
+Task: revise the SALT AI Security Roadmap for tomorrow’s call. Preserve the existing structure and intent. Do not invent facts about the client’s environment.
+Slide 7
+1.	Remove the Operating Model workstream entirely. It should not appear as a standalone year-long workstream.
+2.	Split the freed space equally between AISPM and AI Detection & Response.
+3.	For AISPM, show more than repository integration. Add 2–3 high-level integration areas, including cloud accounts; consider MCP servers and LLM gateways where appropriate. Carry the same approach through all three phases. Do not make the list exhaustive.
+4.	Make the AI Detection & Response wording specific to AI, rather than a generic telemetry and detection roadmap. Keep the existing phases and do not assume the client uses tools that have not been confirmed.
+Slide 11: Check whether all its milestones appear on slide 7. Move any missing milestones to slide 7, then delete slide 
+Slide 16 — AISPM: Add an explicit action after posture findings: review and remediate issues, such as a misconfigured MCP server. Weave this into Govern or add a separate step—whichever makes the flow clearer. Show what the team does with AISPM findings, not just how it discovers and governs AI components.
+Slide 17 — AI Detection & Response: Keep this distinct from AISPM. Check that the detect → triage → prioritize → respond flow remains coherent, along with SIEM/case management, LLM gateways/proxies, SOC integration, and monthly tuning. Do not move posture remediation from slide 16 into this runtime-response flow.
+Output: Provide the exact proposed slide text and block placement, followed by a short change log. Label anything not supported by the roadmap file as a proposal, not a confirmed fact.
