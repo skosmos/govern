@@ -1,0 +1,7 @@
+Use this as the **diagramming prompt**:
+
+> Create a **current-state operating model diagram** using the Discount Tire example as the visual reference. Put teams in boxes and describe each team’s functions inside or beside its box. Show connections between related teams, including Security Architecture and Enterprise Architecture.
+>
+> Show individual names **only at the CISO, Deputy CISO, and David Sims level**, after verifying their roles and spelling. Add a box for **Dwayne Smith as David’s peer**, but verify their relationship before finalizing the placement. Label Gurinder’s team **Platform Engineering**. Remove the PMO box because its owner is unknown. Use the client’s acronyms for team labels.
+>
+> Do not assume every development team shares one DevOps team. Mark uncertain reporting lines or functions as **“To confirm”** rather than inventing them. Aim for a **50–60% complete draft** suitable for client feedback tomorrow; do not build the future-state model yet.
