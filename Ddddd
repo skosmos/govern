@@ -1,0 +1,7 @@
+Task: Create a clear CISO organizational structure based on the attached screenshots. The org chart is the main deliverable—not a process diagram or a detailed responsibilities matrix.
+Show the CISO and their direct reports. Expand only Dwayne’s branch: show Anil Gaur (operations) and Tom Kato (cyber technology) under him. Create two versions:
+1.	Current state: Do not include an AppSec Director; this role does not yet exist.
+2.	Future state: Add the new AppSec Director role under Dwayne.
+Include names only at L1 and L2. Below that, label functions rather than individual employees. Keep the chart focused on reporting structure; add only brief function labels where they help explain a role. Do not expand unrelated branches or include the detailed requirements table.
+Use the screenshots to verify names, titles, and reporting lines. Use solid lines for direct reporting and dotted lines only for relevant indirect relationships with teams outside the CISO organization. If the screenshots do not establish a relationship, flag it for confirmation rather than inventing one.
+Deliverable: Two clean, presentation-ready org charts—current state and future state—plus a brief list of anything that needs confirmation.
