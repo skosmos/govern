@@ -1,0 +1,9 @@
+Prompt to update the org chart:
+Revise the existing diagram while preserving its overall structure. On the left, show the IT/security-side teams; on the right, show the product-side teams.
+•	Add a Security Architecture box under Tom K. Use the function name, not Chris Wren’s name.
+•	Add Enterprise Architecture and connect it to Security Architecture with a solid line. Check the stakeholder list for the Enterprise Architecture lead so the department is labelled correctly. Add the discussed dotted connections from the CISO to other connected teams.
+•	On the left, add Platform Engineering and Developer Tools (Guninder’s team) and Digital Services and Operational Excellence (Cassie’s team) as separate vertical sections. Draw a dotted line from Dwayne to each.
+•	On the right, add Product Security (Chris York’s team), with a dotted line from Dwayne Smith.
+•	Reuse the existing Development/Application Teams content where indicated, rather than retaining a generic DevOps Teams label for Guninder’s team.
+•	Resize and rearrange boxes as needed to keep the diagram readable. Do not invent additional reporting relationships or team names.
+Produce an updated diagram for review, leaving enough time to share it at least 30 minutes before the stakeholder call.
