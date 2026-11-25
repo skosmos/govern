@@ -1,0 +1,10 @@
+Summary
+Most architecture patterns have been reviewed, with feedback compiled in a tracker. IAM-related patterns are being reviewed separately by Sadak Patel’s team. The vendor assessment covers 10 options and will narrow them to a top four, then propose two for a POC. Overall status was described as green, with a couple of items pending.
+Highlights and decisions
+•	CrowdStrike Agentic Gateway is in the assessment. Brad’s responses still need to be reviewed and scored; its lack of additional cost makes it a promising POC candidate.
+•	Palo Alto was flagged as a strong contender. With CrowdStrike Guardian already being rolled out, the team wants to examine other vendors before settling on CrowdStrike.
+•	No final vendor or POC selection was recorded. The top-four shortlist and two POC recommendations are still planned.
+Action items
+•	Share the architecture-pattern feedback tracker, excluding the IAM-related patterns, today or tomorrow as stated in the meeting.
+•	Review Brad’s CrowdStrike responses and add the score to the vendor results.
+•	Narrow the 10 vendors to four, then propose two
